@@ -26,13 +26,14 @@ body {
 }
 
 .header .nav {
-    width: 39rem;
+    width: 60%;
 }
 
 .header > div {
-    width: 14.5rem;
+
     background-color: #f96161;
     padding: 0.6rem;
+    width: 15%;
 }
 
 .banner-container {
@@ -210,3 +211,35 @@ body {
 }
 
 
+/* KEYFRAMES */
+
+@keyframes zoomIn {
+    from {transform:scale(1);
+        background-color: #f96161;
+    }
+    to {transform: scale(1.35);
+        background-color: aqua;
+    }
+  }
+
+@keyframes zoomOut {
+    from {transform:scale(1.38);
+        background-color: aqua;
+    }
+    to {transform: scale(1);
+        background-color: #f96161;
+    }
+  }
+
+  .logo {
+    transition: transform 0.5s ease;
+    outline: none;
+  }
+
+  .logo:hover {
+    animation: zoomIn 0.5s forwards ; 
+  }
+
+  .logo:not(:hover) {
+    animation: zoomOut 0.5s forwards ; 
+  }
