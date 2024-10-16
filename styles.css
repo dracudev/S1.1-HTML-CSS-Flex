@@ -134,6 +134,10 @@ body {
 
 @media (max-width: 991.98px) {
 
+    body {
+        background-color: violet;
+    }
+
     .container9 {
         flex-direction: column;
         width: 100%;
@@ -176,7 +180,9 @@ body {
 
 @media (max-width: 767.98px) {
 
-
+    body {
+        background-color: rgb(139, 238, 130);
+    }
 
     .article {
         flex-direction: column;
