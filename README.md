@@ -1,29 +1,47 @@
-# S1.1. HTML & CSS with Flex
+# S1.1 HTML & CSS with Flex
 
-📄 **Description**
+## 📄 Description
 
 This project involves creating a responsive layout that works on desktop, tablet, and mobile devices. Throughout the exercise, you will apply **HTML**, **CSS**, **Flexbox**, and **Media Queries** concepts to design a flexible and optimized structure.
 
----
+<br>
 
-💻 **Technologies Used**
+## 📐 Project Structure
+
+### Level 1
+
+- **Exercise 1**: Desktop layout based on the provided wireframe.
+- **Exercise 2**: Adapt the layout for tablets using Media Queries.
+- **Exercise 3**: Adapt the layout for mobile devices.
+
+### Level 2
+
+- **Exercise 4**: Change the background color based on screen width (desktop, tablets, mobile).
+
+### Level 3
+
+- **Exercise 5**: Implement CSS animation using hover to change the dimensions and color of the first div.
+
+<br>
+
+## 💻 Technologies Used
 
 - HTML5
 - CSS3
 - Flexbox
 - Media Queries
 
----
+<br>
 
-📋 **Requirements**
+## 📋 Requirements
 
 - Recommended text editor: [Visual Studio Code](https://code.visualstudio.com/)
 - An up-to-date web browser (Google Chrome, Firefox, etc.)
 - GIT knowledge for submitting the project via GitHub
 
----
+<br>
 
-🛠️ **Installation**
+## 🛠️ Installation
 1. Clone this repository: 
   ```bash
   git clone https://github.com/dracudev/S1.1-HTML-CSS-Flex.git
@@ -37,24 +55,24 @@ This project involves creating a responsive layout that works on desktop, tablet
   code .
   ```
 
----
+<br>
 
-▶️ **Execution**
+## ▶️ Execution
 
 1. Open the `index.html` file in your browser to view the layout.
 2. Customize and modify the layout using `style.css` for different screen sizes.
 
----
+<br>
 
-🌐 **Deployment**
+## 🌐 Deployment
 
 1. Prepare the production environment.
 2. Upload the project files to the server.
 3. Ensure the server is configured to handle media queries correctly for responsive design.
 
----
+<br>
 
-🤝 **Contributions**
+## 🤝 Contributions
 
 Contributions are welcome! Please follow the steps below to contribute:
 
