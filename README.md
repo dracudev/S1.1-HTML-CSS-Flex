@@ -66,7 +66,7 @@ This project involves creating a responsive layout that works on desktop, tablet
 
 ## 🌐 Deployment
 
-1. No needed for this project.
+No needed for this project.
 
 <br>
 
