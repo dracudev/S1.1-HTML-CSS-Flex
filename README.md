@@ -66,9 +66,7 @@ This project involves creating a responsive layout that works on desktop, tablet
 
 ## 🌐 Deployment
 
-1. Prepare the production environment.
-2. Upload the project files to the server.
-3. Ensure the server is configured to handle media queries correctly for responsive design.
+1. No needed for this project.
 
 <br>
 
