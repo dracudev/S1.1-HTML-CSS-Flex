@@ -2,10 +2,15 @@
 
 /* MAQUETACIO */
 
+* {
+    box-sizing: border-box;
+}
+
 body {
     background-color: #ffffff;
     max-width: 1200px;
     margin: 0 auto;
+    overflow-x: hidden;
 }
 
 .container9 {
@@ -23,23 +28,25 @@ body {
     justify-content: space-around;
     padding: 1rem;
     background-color: #3d4c51;
+    gap: 1rem;
+    width: 100%;
 }
 
-.header .nav {
-    width: 60%;
+.nav {
+    width: 51%;
+    background-color: #f96161;
+    padding: 0.6rem;;
 }
 
-.header > div {
-
+.social, .logo {
     background-color: #f96161;
     padding: 0.6rem;
-    width: 15%;
+    width: 20%;
 }
 
 .banner-container {
     display: flex;
     flex-direction: column;
-    gap: 0.6rem;
     padding: 0.6rem;
     background-color: rgb(255, 146, 3);
 }
@@ -49,7 +56,8 @@ body {
     font-size: 1.9rem;
     font-weight: bold;
     padding: 0.6rem;
-    margin: 0.9rem;
+    margin: 1rem;
+    width: 97%;
 }
 
 .main-content {
@@ -67,40 +75,25 @@ body {
     justify-content: space-around;
     display: flex;
     flex-wrap: wrap;
-    width: 72%;
+    width: 100%;
+    padding: 1.3rem 1rem 1.3rem 1rem;
 }
 
 .article {
     background-color: #5575a5;
-    width: 46%;
+    width: 48%;
     padding: 1rem;
     margin-bottom: 1.3rem;
 }
 
-.article:nth-child(1),
-.article:nth-child(2) {
-    margin-top: 1.3rem;
-}
-
-.article:nth-child(1),
-.article:nth-child(3) {
-    margin-left: 0.9rem;
-}
-
-.article:nth-child(2),
-.article:nth-child(4) {
-    margin-right: 0.9rem;
-}
-
 .navegacion {
     background-color: #84b3d7;
-    width: 94.5%;
-    margin-bottom: 1.3rem;
-    padding: 1.3rem;
+    width: 98%;
+    padding: 1rem;
 }
 
 .publicidad {
-    width: 27%;
+    width: 25%;
     display: flex;
     flex-direction: column;
     gap: 0.6rem;
@@ -110,8 +103,8 @@ body {
 .ad {
     background-color: #ffcd38;
     color: black;
-    padding: 0.9rem;
-    margin: 1.3rem 1.3rem 0 1.3rem;
+    padding: 0.7rem;
+    margin: 1.4rem 1.7rem 0 1.7rem;
 }
 
 .ad:nth-child(2) {
@@ -150,22 +143,31 @@ body {
     }
 
     .header > div {
-        width: 100%;
+        width: 98%;
+        margin-left: 0.5rem;
+    }
+
+    .logo {
+        margin-top: 0.3rem;
+    }
+
+    .social {
+        margin-bottom: 0.3rem;
     }
 
     .header .nav {
-        width: 100%;
-        margin-top: 1rem;
-        margin-bottom: 1rem;
+        width: 98%;
+        margin-top: 0.5rem;
+        margin-bottom: 0.5rem;
+    }
+
+    .banner {
+        width: 96%;
     }
 
     .main-content {
         display: flex;
         flex-direction: column;
-        width: 100%;
-    }
-
-    .articles {
         width: 100%;
     }
 
@@ -177,6 +179,7 @@ body {
     .footer-container {
         width: 100%;
     }
+
 }
 
 @media (max-width: 767.98px) {
@@ -185,28 +188,21 @@ body {
         background-color: rgb(139, 238, 130);
     }
 
+    .banner {
+        width: 95%;
+    }
+
     .article {
         flex-direction: column;
+        width: 97%;
+    }
+
+    .publicidad {
         width: 100%;
     }
-
-    .article:nth-child(1){
-        margin-bottom: 0;
-    }
-
-    .article:nth-child(2),
-    .article:nth-child(4) {
-        margin-left: 0.9rem;
-    }
-
-    .article:nth-child(1),
-    .article:nth-child(3) {
- 
-        margin-right: 0.9rem;
-    }
-
-    .navegacion{
-        width: 96%;
+    
+    .navegacion {
+        width: 97%;
     }
 }
 
@@ -217,13 +213,13 @@ body {
     from {transform:scale(1);
         background-color: #f96161;
     }
-    to {transform: scale(1.35);
+    to {transform: scale(1.23);
         background-color: aqua;
     }
   }
 
 @keyframes zoomOut {
-    from {transform:scale(1.38);
+    from {transform:scale(1.23);
         background-color: aqua;
     }
     to {transform: scale(1);
