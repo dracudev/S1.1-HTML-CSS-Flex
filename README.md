@@ -4,6 +4,12 @@
 
 This project involves creating a responsive layout that works on desktop, tablet, and mobile devices. Throughout the exercise, you will apply **HTML**, **CSS**, **Flexbox**, and **Media Queries** concepts to design a flexible and optimized structure.
 
+### Objectives
+
+- Understand and practice HTML and CSS.
+- Learn how to create small CSS animations.
+- Understand how MediaQueries work.
+
 <br>
 
 ## 📐 Project Structure
