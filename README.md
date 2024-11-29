@@ -14,17 +14,17 @@ This project involves creating a responsive layout that works on desktop, tablet
 
 ## 📐 Project Structure
 
-### Level 1
+### ⭐ Level 1
 
 - **Exercise 1**: Desktop layout based on the provided wireframe.
 - **Exercise 2**: Adapt the layout for tablets using Media Queries.
 - **Exercise 3**: Adapt the layout for mobile devices.
 
-### Level 2
+### ⭐⭐ Level 2
 
 - **Exercise 4**: Change the background color based on screen width (desktop, tablets, mobile).
 
-### Level 3
+### ⭐⭐⭐ Level 3
 
 - **Exercise 5**: Implement CSS animation using hover to change the dimensions and color of the first div.
 
@@ -43,7 +43,6 @@ This project involves creating a responsive layout that works on desktop, tablet
 
 - Recommended text editor: [Visual Studio Code](https://code.visualstudio.com/)
 - An up-to-date web browser (Google Chrome, Firefox, etc.)
-- GIT knowledge for submitting the project via GitHub
 
 <br>
 
@@ -67,9 +66,3 @@ This project involves creating a responsive layout that works on desktop, tablet
 
 1. Open the `index.html` file in your browser to view the layout.
 2. Customize and modify the layout using `style.css` for different screen sizes.
-
-<br>
-
-## 🌐 Deployment
-
-No needed for this project.
