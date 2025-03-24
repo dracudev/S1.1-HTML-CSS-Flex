@@ -1,4 +1,4 @@
-# S1.1 HTML & CSS with Flex
+# HTML & CSS with Flex
 
 ## 📄 Description
 
@@ -9,24 +9,6 @@ This project involves creating a responsive layout that works on desktop, tablet
 - Understand and practice HTML and CSS.
 - Learn how to create small CSS animations.
 - Understand how MediaQueries work.
-
-<br>
-
-## 📐 Project Structure
-
-### ⭐ Level 1
-
-- **Exercise 1**: Desktop layout based on the provided wireframe.
-- **Exercise 2**: Adapt the layout for tablets using Media Queries.
-- **Exercise 3**: Adapt the layout for mobile devices.
-
-### ⭐⭐ Level 2
-
-- **Exercise 4**: Change the background color based on screen width (desktop, tablets, mobile).
-
-### ⭐⭐⭐ Level 3
-
-- **Exercise 5**: Implement CSS animation using hover to change the dimensions and color of the first div.
 
 <br>
 
